@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Cat City</title>
+    <style>
+    /*This is the start of the CSS*/
+    body {
+      background-color: orange;
+    }
+    button {
+      background-color: lightgreen;
+      padding:20px;
+    }
+    .info {
+      font-size: 20px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Cat City</h1>
+    <p class="info"></p>
+    <p class="message"></p>
+    <button class="button1">Buy catfood</button>
+    <button class="button2">Catch a cat</button>
+    <button class="button3">Give a cat to the SPCA</button>
+    <button class="button4">Get a breadmaker</button>
+    <script>
+//Hello! This is the start of the JavaScript.
+var cats = 0;
+var catfood = 4;
+var medals = 0;
+var breadmakers = 0;
+var medalPoint = 0;
+var numCatsCaught = 0;
+
+var showInfo = function () {
+  $(".info").text("You have " + catfood + " tins of catfood, " + cats + " cats caught, " + numCatsCaught + " cats given to SPCA, " + medals + " SPCA medals (one medal for every five cats), and " + breadmakers + " have been earned (one breadmaker for every 5 medals).");
+}
+
+var getCat = function () {
+  if (catfood > 0) {
+    catfood = catfood - 1;
+    cats = cats + 1;
+    showInfo();
+    $(".message").text("You found a cat!");
+  } else {
+    $(".message").text("You need to buy more catfood first.");
+  }
+}
+
+var getFood = function () {
+  catfood = catfood + 1;
+  showInfo();
+  $(".message").text("You got more catfood!");
+}
+
+var getMedal = function () {
+  if (cats > 0) {
+    numCatsCaught = numCatsCaught + 1;
+    cats = cats - 1;
+    medalPoint = medalPoint + 1;
+    showInfo();
+    $(".message").text("You gave a cat to the SPCA!");
+    if (medalPoint == 5) {
+        medals = medals + 1;
+        medalPoint = medalPoint - 5;
+        showInfo();
+        $(".message").text("You have gained a medal!");
+    } else {
+        showInfo();
+        $(".message").text("You need to give 5 cats to get a medal!");
+    }
+  } else {
+    $(".message").text("You need to catch more cats first.");
+  } 
+}
+
+var getBreadmaker = function () {
+  if (medals >= 5) {
+    breadmakers = breadmakers + 1;
+    medals = medals - 5;
+    showInfo();
+    $(".message").text("You got a breadmaker!");
+  } else {
+    $(".message").text("You need to get more medals first.");
+  }
+}
+
+$(".button2").on("click", getCat);
+$(".button1").on("click", getFood);
+$(".button3").on("click", getMedal);
+$(".button4").on("click", getBreadmaker);
+    </script>
+  </body>
+</html>
