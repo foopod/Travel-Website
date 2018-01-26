@@ -1,36 +1,19 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>The Adventures of the Travelling Twins</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVZZRG5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      h1 {
-        font-size: 150%;
-        text-align: center;
-      }
-      img {
-         display:block;
-      }
 
-    </style>
+    <div id="main-content" class="content container">
+      {% include navbar.html %}
+      {{ content }}
+    </div>
 
-  </head>
   </body>
 </html>
