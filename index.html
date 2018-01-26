@@ -78,251 +78,36 @@
           center: middle
         });
 
-        // Sydney December 2016 - Code for Marker
-        
-        var contentStringSydney = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Sydney</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>27/12/2016-04/01/2017</p>'+
-            '<p>Happy New Year!</p>'+
-            '<p>After living in New Zealand for 23 years we finally made it to Australia</p>'+
-            '<img src="https://drive.google.com/uc?id=1pKejPClye6e4VCj23Juj3J5HN-L17w4z" height="150" align="centre">'+
-            '</div>'+
-            '</div>';
+        <div class="posts">
+          {% for post in paginator.posts %}
+          <div class="post">
+            var contentString = '<div id="content">'+
+              '<div id="siteNotice">'+
+              '</div>'+
+              '<h1 id="firstHeading" class="firstHeading" align="center">"post-location"</h1>'+
+              '<div id="bodyContent" align="center">'+
+              '<p>"post-date"</p>'+
+              '<p>"post-subtitle"</p>'+
+              '<p>"post-description"</p>'+
+              '<img src="post-titleImage" height="150" align="centre">'+
+              '</div>'+
+              '</div>';
 
-        var infowindowSydney = new google.maps.InfoWindow({
-          content: contentStringSydney
-        });
-
-        var markerSydney = new google.maps.Marker({
-          position: Sydney,
-          map: map,
-          title: 'Sydney'
-        });
-        markerSydney.addListener('click', function() {
-          infowindowSydney.open(map, markerSydney);
-        });
-        
-        // England August 2017 - Code for Marker
-        
-        var contentStringSalisbury = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Salisbury</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>19/08/2017</p>'+
-            '<p>Welcome to the UK!</p>'+
-            '<p>Reunion with our bestie, brunch and the Magna Carta</p>'+
-            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4bnVBajJoYW9Wbmc" height="150" align="centre">'+
-            '</div>'+
-            '</div>';
-
-        var infowindowSalisbury = new google.maps.InfoWindow({
-          content: contentStringSalisbury
-        });
-
-        var markerSalisbury = new google.maps.Marker({
-          position: Salisbury,
-          map: map,
-          title: 'Salisbury'
-        });
-        markerSalisbury.addListener('click', function() {
-          infowindowSalisbury.open(map, markerSalisbury);
-        });
-        
-         var contentStringDorset = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Dorset</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>20/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowDorset = new google.maps.InfoWindow({
-          content: contentStringDorset
-        });
-
-        var markerDorset = new google.maps.Marker({
-          position: Dorset,
-          map: map,
-          title: 'Dorset'
-        });
-        markerDorset.addListener('click', function() {
-          infowindowDorset.open(map, markerDorset);
-        });
-        
-        var contentStringBristol = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Bristol</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>21/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowBristol = new google.maps.InfoWindow({
-          content: contentStringBristol
-        });
-
-        var markerBristol = new google.maps.Marker({
-          position: Bristol,
-          map: map,
-          title: 'Bristol'
-        });
-        markerBristol.addListener('click', function() {
-          infowindowBristol.open(map, markerBristol);
-        });
-        
-        var contentStringLondon = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">London</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>22/08/2017 - 23/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowLondon = new google.maps.InfoWindow({
-          content: contentStringLondon
-        });
-
-        var markerLondon = new google.maps.Marker({
-          position: London,
-          map: map,
-          title: 'London'
-        });
-        markerLondon.addListener('click', function() {
-          infowindowLondon.open(map, markerLondon);
-        });
-        
-        var contentStringWhittlesey = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Whittlesey</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>24/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-            
-        var infowindowWhittlesey = new google.maps.InfoWindow({
-          content: contentStringWhittlesey
-        });
-
-        var markerWhittlesey = new google.maps.Marker({
-          position: Whittlesey,
-          map: map,
-          title: 'Whittlesey'
-        });
-        markerWhittlesey.addListener('click', function() {
-          infowindowWhittlesey.open(map, markerWhittlesey);
-        });
-        
-        var contentStringEpping = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Epping</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>25/08/2017 - 27/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowEpping = new google.maps.InfoWindow({
-          content: contentStringEpping
-        });
-
-        var markerEpping = new google.maps.Marker({
-          position: Epping,
-          map: map,
-          title: 'Epping'
-        });
-        markerEpping.addListener('click', function() {
-          infowindowEpping.open(map, markerEpping);
-        });
-        
-        // Trans Siberian August/September 2017 - Code for Marker
-        
-        var contentStringStPetersburg = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="centre">St Petersburg</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>28/08/2017-30/08/2017</p>'+
-            '<p>Добро пожаловать в Россию (Welcome to Russia)</p>'+
-            '<p>Catherdrals, Forts, Art and the Start of the Vodka Train!</p>'+
-            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4SWFtOHFjY3I5ODg" height="150" align="centre">'+
-            '<a href="about">Post</a>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowStPetersburg = new google.maps.InfoWindow({
-          content: contentStringStPetersburg
-        });
-
-        var markerStPetersburg = new google.maps.Marker({
-          position: StPetersburg,
-          map: map,
-          title: 'St Petersburg'
-        });
-        markerStPetersburg.addListener('click', function() {
-          infowindowStPetersburg.open(map, markerStPetersburg);
-        });
-        
-        var contentStringBologoya = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">First Train: St Petersburg to Moscow</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>Overnight train 30/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowBologoya = new google.maps.InfoWindow({
-          content: contentStringBologoya
-        });
-
-        var markerBologoya = new google.maps.Marker({
-          position: Bologoya,
-          map: map,
-          title: 'First Train: St Petersburg to Moscow'
-        });
-        markerBologoya.addListener('click', function() {
-          infowindowBologoya.open(map, markerBologoya);
-        });
-        
-        var contentStringMoscow = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Moscow</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>31/08/2017-02/09/2017</p>'+
-            '<p>Поехали в Москву (Lets go Moscow)</p>'+
-            '<p>Sculpture graveyards, Cold War Bunkers, Pub Crawls and the Kremlin!</p>'+
-            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4d0R3VDd1dEhPbm8" height="150">'+
-            '</div>'+
-            '</div>';
-
-        var infowindowMoscow = new google.maps.InfoWindow({
-          content: contentStringMoscow
-        });
-
-        var markerMoscow = new google.maps.Marker({
-          position: Moscow,
-          map: map,
-          title: 'Moscow'
-        });
-        markerMoscow.addListener('click', function() {
-          infowindowMoscow.open(map, markerMoscow);
-        });
-        
+          var infowindow = new google.maps.InfoWindow({
+            content: contentString
+          });
+          var marker = new google.maps.Marker({
+            position: "post-gps",
+            map: map,
+            title: "post-title"
+          });
+          marker.addListener('click', function() {
+            infowindow.open(map, marker);
+          });
+        </div>
+        {% endfor %}
+      </div>
+         
         var contentStringYaroslavl = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
