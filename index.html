@@ -43,64 +43,575 @@
 
       function initMap() {
         
+        // Sydney December 2016 - Locations (GPS Coordinates)
+        var Sydney = {lat: -33.858996, lng: 151.208790};
+        
+        // England August 2017 - Locations (GPS Coordinates)
+        var Salisbury = {lat: 51.069244, lng: -1.794611};
+        var Dorset = {lat: 50.621040, lng: -2.450617};
+        var Bristol = {lat: 51.456855, lng: -2.603078};
+        var London = {lat: 51.517200, lng: -0.100259};
+        var Whittlesey = {lat: 52.558002, lng: -0.130331};
+        var Epping= {lat: 51.699356, lng: 0.108385};
+        
+        // Trans Siberian August/September 2017 - Locations (GPS Coordinates)
+        var StPetersburg = {lat: 59.904755, lng: 30.285203};
+        var Bologoya = {lat: 57.982057, lng: 34.048883};
+        var Moscow = {lat: 55.754329, lng: 37.621198};
+        var Yaroslavl = {lat: 57.37, lng: 39.41};
+        var Perm = {lat: 58.029043, lng: 56.278721};
+        var Omsk = {lat: 54.981614, lng: 73.380827};
+        var Krasnoyarsk = {lat: 56.020510, lng: 92.887699};
+        var Listvyanka = {lat: 51.856297, lng: 104.872601};
+        var Irkurst = {lat: 52.309455, lng: 104.312055};
+        var Sukhbaatar = {lat: 50.230389, lng: 106.206278};
+        var Ulaanbaatar = {lat: 47.913200, lng: 106.915594};
+        var TejPark = {lat: 48.157732, lng: 107.663911};
+        var ZamynUud = {lat: 43.718967, lng: 111.904584};
+        var Beijing = {lat: 39.922751, lng: 116.404280};
+        var GreatWall ={lat: 40.432732, lng: 116.570532};
+        
         // Sets positioning of map when window is opened
         var middle = {lat: 30.081688, lng: 31.173256};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 3,
           center: middle
         });
-        /***
-        <div class="posts">
-          {% for post in paginator.posts %}
-          <div class="post">
-            var contentString = '<div id="content">'+
-              '<div id="siteNotice">'+
-              '</div>'+
-              '<h1 id="firstHeading" class="firstHeading" align="center">"post-location"</h1>'+
-              '<div id="bodyContent" align="center">'+
-              '<p>"post-date"</p>'+
-              '<p>"post-subtitle"</p>'+
-              '<p>"post-description"</p>'+
-              '<img src="post-titleImage" height="150" align="centre">'+
-              '</div>'+
-              '</div>';
 
-          var infowindow = new google.maps.InfoWindow({
-            content: contentString
-          });
-          var marker = new google.maps.Marker({
-            position: "post-gps",
-            map: map,
-            title: "post-title"
-          });
-          marker.addListener('click', function() {
-            infowindow.open(map, marker);
-          });
-        </div>
-        {% endfor %}
-      </div>
+        // Sydney December 2016 - Code for Marker
+        
+        var contentStringSydney = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Sydney</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>27/12/2016-04/01/2017</p>'+
+            '<p>Happy New Year!</p>'+
+            '<p>After living in New Zealand for 23 years we finally made it to Australia</p>'+
+            '<img src="https://drive.google.com/uc?id=1pKejPClye6e4VCj23Juj3J5HN-L17w4z" height="150" align="centre">'+
+            '</div>'+
+            '</div>';
+
+        var infowindowSydney = new google.maps.InfoWindow({
+          content: contentStringSydney
+        });
+
+        var markerSydney = new google.maps.Marker({
+          position: Sydney,
+          map: map,
+          title: 'Sydney'
+        });
+        markerSydney.addListener('click', function() {
+          infowindowSydney.open(map, markerSydney);
+        });
+        
+        // England August 2017 - Code for Marker
+        
+        var contentStringSalisbury = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Salisbury</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>19/08/2017</p>'+
+            '<p>Welcome to the UK!</p>'+
+            '<p>Reunion with our bestie, brunch and the Magna Carta</p>'+
+            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4bnVBajJoYW9Wbmc" height="150" align="centre">'+
+            '</div>'+
+            '</div>';
+
+        var infowindowSalisbury = new google.maps.InfoWindow({
+          content: contentStringSalisbury
+        });
+
+        var markerSalisbury = new google.maps.Marker({
+          position: Salisbury,
+          map: map,
+          title: 'Salisbury'
+        });
+        markerSalisbury.addListener('click', function() {
+          infowindowSalisbury.open(map, markerSalisbury);
+        });
+        
+         var contentStringDorset = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Dorset</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>20/08/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowDorset = new google.maps.InfoWindow({
+          content: contentStringDorset
+        });
+
+        var markerDorset = new google.maps.Marker({
+          position: Dorset,
+          map: map,
+          title: 'Dorset'
+        });
+        markerDorset.addListener('click', function() {
+          infowindowDorset.open(map, markerDorset);
+        });
+        
+        var contentStringBristol = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Bristol</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>21/08/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowBristol = new google.maps.InfoWindow({
+          content: contentStringBristol
+        });
+
+        var markerBristol = new google.maps.Marker({
+          position: Bristol,
+          map: map,
+          title: 'Bristol'
+        });
+        markerBristol.addListener('click', function() {
+          infowindowBristol.open(map, markerBristol);
+        });
+        
+        var contentStringLondon = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">London</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>22/08/2017 - 23/08/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowLondon = new google.maps.InfoWindow({
+          content: contentStringLondon
+        });
+
+        var markerLondon = new google.maps.Marker({
+          position: London,
+          map: map,
+          title: 'London'
+        });
+        markerLondon.addListener('click', function() {
+          infowindowLondon.open(map, markerLondon);
+        });
+        
+        var contentStringWhittlesey = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Whittlesey</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>24/08/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+            
+        var infowindowWhittlesey = new google.maps.InfoWindow({
+          content: contentStringWhittlesey
+        });
+
+        var markerWhittlesey = new google.maps.Marker({
+          position: Whittlesey,
+          map: map,
+          title: 'Whittlesey'
+        });
+        markerWhittlesey.addListener('click', function() {
+          infowindowWhittlesey.open(map, markerWhittlesey);
+        });
+        
+        var contentStringEpping = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Epping</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>25/08/2017 - 27/08/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowEpping = new google.maps.InfoWindow({
+          content: contentStringEpping
+        });
+
+        var markerEpping = new google.maps.Marker({
+          position: Epping,
+          map: map,
+          title: 'Epping'
+        });
+        markerEpping.addListener('click', function() {
+          infowindowEpping.open(map, markerEpping);
+        });
+        
+        // Trans Siberian August/September 2017 - Code for Marker
+        
+        var contentStringStPetersburg = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="centre">St Petersburg</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>28/08/2017-30/08/2017</p>'+
+            '<p>Добро пожаловать в Россию (Welcome to Russia)</p>'+
+            '<p>Catherdrals, Forts, Art and the Start of the Vodka Train!</p>'+
+            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4SWFtOHFjY3I5ODg" height="150" align="centre">'+
+            '<a href="about">Post</a>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowStPetersburg = new google.maps.InfoWindow({
+          content: contentStringStPetersburg
+        });
+
+        var markerStPetersburg = new google.maps.Marker({
+          position: StPetersburg,
+          map: map,
+          title: 'St Petersburg'
+        });
+        markerStPetersburg.addListener('click', function() {
+          infowindowStPetersburg.open(map, markerStPetersburg);
+        });
+        
+        var contentStringBologoya = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">First Train: St Petersburg to Moscow</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>Overnight train 30/08/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowBologoya = new google.maps.InfoWindow({
+          content: contentStringBologoya
+        });
+
+        var markerBologoya = new google.maps.Marker({
+          position: Bologoya,
+          map: map,
+          title: 'First Train: St Petersburg to Moscow'
+        });
+        markerBologoya.addListener('click', function() {
+          infowindowBologoya.open(map, markerBologoya);
+        });
+        
+        var contentStringMoscow = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Moscow</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>31/08/2017-02/09/2017</p>'+
+            '<p>Поехали в Москву (Lets go Moscow)</p>'+
+            '<p>Sculpture graveyards, Cold War Bunkers, Pub Crawls and the Kremlin!</p>'+
+            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4d0R3VDd1dEhPbm8" height="150">'+
+            '</div>'+
+            '</div>';
+
+        var infowindowMoscow = new google.maps.InfoWindow({
+          content: contentStringMoscow
+        });
+
+        var markerMoscow = new google.maps.Marker({
+          position: Moscow,
+          map: map,
+          title: 'Moscow'
+        });
+        markerMoscow.addListener('click', function() {
+          infowindowMoscow.open(map, markerMoscow);
+        });
+        
+        var contentStringYaroslavl = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">First day on the Trans Siberian</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>02/09/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowYaroslavl = new google.maps.InfoWindow({
+          content: contentStringYaroslavl
+        });
+
+        var markerYaroslavl = new google.maps.Marker({
+          position: Yaroslavl,
+          map: map,
+          title: 'First day on the Trans Siberian'
+        });
+        markerYaroslavl.addListener('click', function() {
+          infowindowYaroslavl.open(map, markerYaroslavl);
+        });
+        
+        var contentStringPerm = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Second day on the Trans Siberian</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>03/09/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowPerm = new google.maps.InfoWindow({
+          content: contentStringPerm
+        });
+
+        var markerPerm = new google.maps.Marker({
+          position: Perm,
+          map: map,
+          title: 'Second day on the Trans Siberian'
+        });
+        markerPerm.addListener('click', function() {
+          infowindowPerm.open(map, markerPerm);
+        });
+        
+        var contentStringOmsk = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Third day on the Trans Siberian</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>04/09/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowOmsk = new google.maps.InfoWindow({
+          content: contentStringOmsk
+        });
+
+        var markerOmsk = new google.maps.Marker({
+          position: Omsk,
+          map: map,
+          title: 'Third day on the Trans Siberian'
+        });
+        markerOmsk.addListener('click', function() {
+          infowindowOmsk.open(map, markerOmsk);
+        });
+        
+        var contentStringKrasnoyarsk = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Last day on the Trans Siberian</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>05/09/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowKrasnoyarsk = new google.maps.InfoWindow({
+          content: contentStringKrasnoyarsk
+        });
+
+        var markerKrasnoyarsk = new google.maps.Marker({
+          position: Krasnoyarsk,
+          map: map,
+          title: 'Last day on the Trans Siberian'
+        });
+        markerKrasnoyarsk.addListener('click', function() {
+          infowindowKrasnoyarsk.open(map, markerKrasnoyarsk);
+        });
+        
+         var contentStringListvyanka = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Listvyanka</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>06/09/2017-07/09/2017</p>'+
+            '<p>Красивое озеро Байкал (Beautiful Lake Baikal)</p>'+
+            '<p>Banya, Fat Seals, and Swimming in the freezing cold Lake Baikal!</p>'+
+            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4MGxSXzdiZlItc1k" height="150">'+
+            '</div>'+
+            '</div>';
+
+        var infowindowListvyanka = new google.maps.InfoWindow({
+          content: contentStringListvyanka
+        });
+
+        var markerListvyanka = new google.maps.Marker({
+          position: Listvyanka,
+          map: map,
+          title: 'Listvyanka'
+        });
+        markerListvyanka.addListener('click', function() {
+          infowindowListvyanka.open(map, markerListvyanka);
+        });
+                
+        var contentStringIrkurst = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Irkurst</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>08/09/2017</p>'+
+            '<p>Ворота в Сибирь (Gateway to Siberia)</p>'+
+            '<p>Modern Art and an English Pub</p>'+
+            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4UmxBOWtHZFc4VGc" height="150">'+
+            '</div>'+
+            '</div>';
+
+        var infowindowIrkurst = new google.maps.InfoWindow({
+          content: contentStringIrkurst
+        });
+
+        var markerIrkurst = new google.maps.Marker({
+          position: Irkurst,
+          map: map,
+          title: 'Irkurst'
+        });
+        markerIrkurst.addListener('click', function() {
+          infowindowIrkurst.open(map, markerIrkurst);
+        });
+        
+        var contentStringSukhbaatar = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Trans Mongolian: First Border Crossing</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>10/09/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowSukhbaatar = new google.maps.InfoWindow({
+          content: contentStringSukhbaatar
+        });
+
+        var markerSukhbaatar = new google.maps.Marker({
+          position: Sukhbaatar,
+          map: map,
+          title: 'Trans Mongolian: First Border Crossing'
+        });
+        markerSukhbaatar.addListener('click', function() {
+          infowindowSukhbaatar.open(map, markerSukhbaatar);
+        });
+       
+        var contentStringUlaanbaatar = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Ulaanbaatar</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>10/09/2017 and 13/09/2017</p>'+
+            '<p>Я чувствую себя немного Чингисханом (Im feeling a little bit Genghis Khan)</p>'+
+            '<p>Temples, Street Markets, Cashmere and Manicures</p>'+
+            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4WEhrcGJmOXZsNEk" height="150">'+
+            '</div>'+
+            '</div>';
+
+        var infowindowUlaanbaatar = new google.maps.InfoWindow({
+          content: contentStringUlaanbaatar
+        });
+
+        var markerUlaanbaatar = new google.maps.Marker({
+          position: Ulaanbaatar,
+          map: map,
+          title: 'Ulaanbaatar'
+        });
+        markerUlaanbaatar.addListener('click', function() {
+          infowindowUlaanbaatar.open(map, markerUlaanbaatar);
+        });
+        
+        var contentStringTejPark = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Gorkhi Terelj National Park</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>11/09/2017-12/09/2017</p>'+
+            '<p>Два дня рая (Two days of Paradise)</p>'+
+            '<p>Gers, Horse Riding, Hiking, the Ayrapala Temple and lots of food!</p>'+
+            '<img src="https://drive.google.com/uc?id=1zu_rT0M91ogvE_Ty_ae2bqid4nJFXzzQ" height="150">'+
+            '</div>'+
+            '</div>';
+
+        var infowindowTejPark = new google.maps.InfoWindow({
+          content: contentStringTejPark
+        });
+
+        var markerTejPark = new google.maps.Marker({
+          position: TejPark,
+          map: map,
+          title: 'Gorkhi Terelj National Park'
+        });
+        markerTejPark.addListener('click', function() {
+          infowindowTejPark.open(map, markerTejPark);
+        });
+        
+        var contentStringZamynUud = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Last Train: Crossing to China</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>14/09/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowZamynUud = new google.maps.InfoWindow({
+          content: contentStringZamynUud
+        });
+
+        var markerZamynUud = new google.maps.Marker({
+          position: ZamynUud,
+          map: map,
+          title: 'Last Train: Crossing to China'
+        });
+        markerZamynUud.addListener('click', function() {
+          infowindowZamynUud.open(map, markerZamynUud);
+        });
+        
+        var contentStringBeijing = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Beijing</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>15/09/2017-16/09/2017</p>'+
+            '<p>Insert link to actual post/picture</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindowBeijing = new google.maps.InfoWindow({
+          content: contentStringBeijing
+        });
+
+        var markerBeijing = new google.maps.Marker({
+          position: Beijing,
+          map: map,
+          title: 'Beijing'
+        });
+        markerBeijing.addListener('click', function() {
+          infowindowBeijing.open(map, markerBeijing);
+        });
+        
+        var contentStringGreatWall = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading" align="center">Great Wall of China</h1>'+
+            '<div id="bodyContent" align="center">'+
+            '<p>17/09/2017</p>'+
+            '<img src="https://drive.google.com/uc?id=1zu_rT0M91ogvE_Ty_ae2bqid4nJFXzzQ" height="150">'+
+            '</div>'+
+            '</div>';
+
+        var infowindowGreatWall = new google.maps.InfoWindow({
+          content: contentStringGreatWall
+        });
+
+        var markerGreatWall = new google.maps.Marker({
+          position: GreatWall,
+          map: map,
+          title: 'Great Wall of China'
+        });
+        markerGreatWall.addListener('click', function() {
+          infowindowGreatWall.open(map, markerGreatWall);
+        });
+        
       }
-      ***/
-    <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-    <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.id}}"></a>
-    <hr>
-  </div>
-  {% endfor %}
-</div>
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvhhyDvSse626-pMa6BoOuOQZNff0xnik&callback=initMap">
     </script>
+
   </body>
 </html>
