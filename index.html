@@ -42,18 +42,7 @@
       // When the user clicks the marker, an info window opens.
 
       function initMap() {
-        
-        // Sydney December 2016 - Locations (GPS Coordinates)
-        var Sydney = {lat: -33.858996, lng: 151.208790};
-        
-        // England August 2017 - Locations (GPS Coordinates)
-        var Salisbury = {lat: 51.069244, lng: -1.794611};
-        var Dorset = {lat: 50.621040, lng: -2.450617};
-        var Bristol = {lat: 51.456855, lng: -2.603078};
-        var London = {lat: 51.517200, lng: -0.100259};
-        var Whittlesey = {lat: 52.558002, lng: -0.130331};
-        var Epping= {lat: 51.699356, lng: 0.108385};
-        
+
         // Trans Siberian August/September 2017 - Locations (GPS Coordinates)
         var StPetersburg = {lat: 59.904755, lng: 30.285203};
         var Bologoya = {lat: 57.982057, lng: 34.048883};
@@ -78,184 +67,37 @@
           center: middle
         });
         
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    var contentString = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">"post-location"</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>"post-date"</p>'+
-            '<p>"post-subtitle"</p>'+
-            '<p>"post-description"</p>'+
-            '<img src="post-titleImage" height="150" align="centre">'+
-            '<a href="post.url">click here</a>'+
-            '</div>'+
-            '</div>';
+        <div class="posts">
+          {% for post in paginator.posts %}
+          <div class="post">
+            var contentString = '<div id="content">'+
+              '<div id="siteNotice">'+
+              '</div>'+
+              '<h1 id="firstHeading" class="firstHeading" align="center">"post-location"</h1>'+
+              '<div id="bodyContent" align="center">'+
+              '<p>"post-date"</p>'+
+              '<p>"post-subtitle"</p>'+
+              '<p>"post-description"</p>'+
+              '<img src="post-titleImage" height="150" align="centre">'+
+              #'<a href="post.url">click here</a>'+
+              '</div>'+
+              '</div>';
 
-        var infowindow = new google.maps.InfoWindow({
-          content: contentString
-        });
-
-        var marker = new google.maps.Marker({
-          position: "post-gps",
-          map: map,
-          title: "post-title"
-        });
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-  </div>
-  {% endfor %}
-</div>
-        
-        // Sydney December 2016 - Code for Marker
-        
-        
-        
-        // England August 2017 - Code for Marker
-        
-        var contentStringSalisbury = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Salisbury</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>19/08/2017</p>'+
-            '<p>Welcome to the UK!</p>'+
-            '<p>Reunion with our bestie, brunch and the Magna Carta</p>'+
-            '<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4bnVBajJoYW9Wbmc" height="150" align="centre">'+
-            '</div>'+
-            '</div>';
-
-        var infowindowSalisbury = new google.maps.InfoWindow({
-          content: contentStringSalisbury
-        });
-
-        var markerSalisbury = new google.maps.Marker({
-          position: Salisbury,
-          map: map,
-          title: 'Salisbury'
-        });
-        markerSalisbury.addListener('click', function() {
-          infowindowSalisbury.open(map, markerSalisbury);
-        });
-        
-         var contentStringDorset = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Dorset</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>20/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowDorset = new google.maps.InfoWindow({
-          content: contentStringDorset
-        });
-
-        var markerDorset = new google.maps.Marker({
-          position: Dorset,
-          map: map,
-          title: 'Dorset'
-        });
-        markerDorset.addListener('click', function() {
-          infowindowDorset.open(map, markerDorset);
-        });
-        
-        var contentStringBristol = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Bristol</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>21/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowBristol = new google.maps.InfoWindow({
-          content: contentStringBristol
-        });
-
-        var markerBristol = new google.maps.Marker({
-          position: Bristol,
-          map: map,
-          title: 'Bristol'
-        });
-        markerBristol.addListener('click', function() {
-          infowindowBristol.open(map, markerBristol);
-        });
-        
-        var contentStringLondon = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">London</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>22/08/2017 - 23/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowLondon = new google.maps.InfoWindow({
-          content: contentStringLondon
-        });
-
-        var markerLondon = new google.maps.Marker({
-          position: London,
-          map: map,
-          title: 'London'
-        });
-        markerLondon.addListener('click', function() {
-          infowindowLondon.open(map, markerLondon);
-        });
-        
-        var contentStringWhittlesey = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Whittlesey</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>24/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-            
-        var infowindowWhittlesey = new google.maps.InfoWindow({
-          content: contentStringWhittlesey
-        });
-
-        var markerWhittlesey = new google.maps.Marker({
-          position: Whittlesey,
-          map: map,
-          title: 'Whittlesey'
-        });
-        markerWhittlesey.addListener('click', function() {
-          infowindowWhittlesey.open(map, markerWhittlesey);
-        });
-        
-        var contentStringEpping = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Epping</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>25/08/2017 - 27/08/2017</p>'+
-            '<p>Insert link to actual post/picture</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindowEpping = new google.maps.InfoWindow({
-          content: contentStringEpping
-        });
-
-        var markerEpping = new google.maps.Marker({
-          position: Epping,
-          map: map,
-          title: 'Epping'
-        });
-        markerEpping.addListener('click', function() {
-          infowindowEpping.open(map, markerEpping);
-        });
-        
+          var infowindow = new google.maps.InfoWindow({
+            content: contentString
+          });
+          var marker = new google.maps.Marker({
+            position: "post-gps",
+            map: map,
+            title: "post-title"
+          });
+          marker.addListener('click', function() {
+            infowindow.open(map, marker);
+          });
+        </div>
+        {% endfor %}
+      </div>
+      
         // Trans Siberian August/September 2017 - Code for Marker
         
         var contentStringStPetersburg = '<div id="content">'+
