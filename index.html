@@ -77,33 +77,36 @@
           zoom: 3,
           center: middle
         });
-
-        // Sydney December 2016 - Code for Marker
         
-        var contentStringSydney = '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading" align="center">Sydney</h1>'+
-            '<div id="bodyContent" align="center">'+
-            '<p>27/12/2016-04/01/2017</p>'+
-            '<p>Happy New Year!</p>'+
-            '<p>After living in New Zealand for 23 years we finally made it to Australia</p>'+
-            '<img src="https://drive.google.com/uc?id=1pKejPClye6e4VCj23Juj3J5HN-L17w4z" height="150" align="centre">'+
-            '</div>'+
-            '</div>';
+        <div class="posts">
+          {% for post in paginator.posts %}
+          <div class="post">
+            var contentString = '<div id="content">'+
+              '</div>'+
+              '<h1 id="firstHeading" class="firstHeading" align="center">"post-location"</h1>'+
+              '<div id="bodyContent" align="center">'+
+              '<p>"post-date"</p>'+
+              '<p>"post-subtitle"</p>'+
+              '<p>"post-description"</p>'+
+              '<img src="post-titleImage" height="150" align="centre">'+
+              '<a href="{{ post.url }}"></a>'+
+              '</div>'+
+              '</div>';
+            var infowindow = new google.maps.InfoWindow({
+              content: contentString
+            });
 
-        var infowindowSydney = new google.maps.InfoWindow({
-          content: contentStringSydney
-        });
-
-        var markerSydney = new google.maps.Marker({
-          position: Sydney,
-          map: map,
-          title: 'Sydney'
-        });
-        markerSydney.addListener('click', function() {
-          infowindowSydney.open(map, markerSydney);
-        });
+            var marker = new google.maps.Marker({
+              position: "post-gps",
+              map: map,
+              title: "post-location"
+            });
+            marker.addListener('click', function() {
+              infowindow.open(map, marker);
+            });
+             </div>
+            {% endfor %}
+          </div>
         
         // England August 2017 - Code for Marker
         
