@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Salisbury
-date: 19/08/2017
+date: 2017-08-19
 location: Salisbury
 gps: {lat: 51.069244, lng: -1.794611}
 subtitle: Welcome to the UK!
