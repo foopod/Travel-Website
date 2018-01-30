@@ -1,85 +1,66 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>The Adventures of the Travelling Twins</title>
-		<!-- The style.css file allows you to change the look of your web pages.
-         	If you include the next line in all your web pages, they will all share the same look.
-         	This makes it easier to make new pages for your site. -->
-		<link href="/style.css" rel="stylesheet" type="text/css" media="all">
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-		<style>
-      			/* Always set the map height explicitly to define the size of the div
-       			* element that contains the map. */
-      			#map {
-        			height: 100%;
-      			}
-      			/* Optional: Makes the sample page fill the window. */
-      			html, body {
-        			height: 100%;
-        			margin: 0;
-        			padding: 0;
-      			}
-      			h1 {
-        			font-size: 150%;
-        			text-align: center;
-      			}
-      			img {
-         			display:block;
-      			}
-		</style>
-	</head>
-	<body>
-		<h1>Track the adventures of Zoe and Louise as they travel across the globe!</h1>
-		<div id="map"></div>
-		<script>
+---
+layout: default
+title: Adventures of Zoe and Louise
+description: Track our adventures across the Globe
+---
 
-			// This example displays a marker at the center of Australia.
-      			// When the user clicks the marker, an info window opens.
+<!-- Disqus integration-->
+<script type="text/javascript">
+  var disqus_shortname = 'adventuresofthetravellingtwins'; // required: replace example with your forum shortname
 
-      			function initMap() {
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
+
+<div id="map"></div>
+<script>
+	// This example displays a marker at the center of Australia.
+	// When the user clicks the marker, an info window opens.
+	function initMap() {
+		// Sets positioning of map when window is opened
+        	var middle = {lat: 30.081688, lng: 31.173256};
+        	var map = new google.maps.Map(document.getElementById('map'), {
+        	zoom: 3,
+        	center: middle
+        });
         
-        			// Sets positioning of map when window is opened
-        			var middle = {lat: 30.081688, lng: 31.173256};
-        			var map = new google.maps.Map(document.getElementById('map'), {
-          			zoom: 3,
-          			center: middle
-        		});
         
-        
-			<div class="posts">
-          			{% for post in paginator.posts %}
-          			<div class="post">
-            				var contentString = '<div id="content">' +
-              					'<div id="siteNotice">' +
-              					'</div>' +
-              					'<h1 id="firstHeading" class="firstHeading" align="center">"post-location"</h1>' + 
-              					'<div id="bodyContent" align="center">' +
-              					'<p>"post-date"</p>' +
-              					'<p>"post-subtitle"</p>' +
-              					'<p>"post-description"</p>' +
-              					'<img src="post-titleImage" height="150" align="centre">' +
-              					'<a href={{post.url}}></a>' +
-              					'</div>' +
-              					'</div>';
-          				var infowindow = new google.maps.InfoWindow({
-            					content: contentString
-          				});
-          				var marker = new google.maps.Marker({
-            					position: "post-gps",
-            					map: map,
-            					title: "post-title"
-          				});
-          				marker.addListener('click', function() {
-            					infowindow.open(map, marker);
-          				});
-        			</div>
-        			{% endfor %}
-			</div>
-		}
+	<div class="posts">
+        	{% for post in paginator.posts %}
+          	<div class="post">
+            		var contentString = '<div id="content">' +
+              		'<div id="siteNotice">' +
+              		'</div>' +
+              		'<h1 id="firstHeading" class="firstHeading" align="center">"post-location"</h1>' + 
+              		'<div id="bodyContent" align="center">' +
+              		'<p>"post-date"</p>' +
+              		'<p>"post-subtitle"</p>' +
+              		'<p>"post-description"</p>' +
+              		'<img src="post-titleImage" height="150" align="centre">' +
+              		'<a href={{post.url}}></a>' +
+              		'</div>' +
+              		'</div>';
+          		var infowindow = new google.maps.InfoWindow({
+            			content: contentString
+          		});
+          		var marker = new google.maps.Marker({
+            			position: "post-gps",
+            			map: map,
+            			title: "post-title"
+          		});
+          		marker.addListener('click', function() {
+            			infowindow.open(map, marker);
+          		});
+        		</div>
+        	{% endfor %}
+		</div>
+	}
     
-		</script>
-		<script async defer
-    		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvhhyDvSse626-pMa6BoOuOQZNff0xnik&callback=initMap"></script>
-	</body>
-</html>
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvhhyDvSse626-pMa6BoOuOQZNff0xnik&callback=initMap"></script>
