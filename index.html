@@ -2,6 +2,8 @@
 layout: default
 title: Adventures of Zoe and Louise
 description: Track our adventures across the Globe
+pagination: 
+  enabled: true
 ---
 
 <div id="map"></div>
@@ -15,7 +17,33 @@ description: Track our adventures across the Globe
         	zoom: 3,
         	center: middle
         });
-        
+	
+	{% for post in paginator.posts %}
+            		var contentString = '<div id="content">' +
+              		'<div id="siteNotice">' +
+              		'</div>' +
+              		'<h1 id="firstHeading" class="firstHeading" align="center">"post-location"</h1>' + 
+              		'<div id="bodyContent" align="center">' +
+              		'<p>"post-date"</p>' +
+              		'<p>"post-subtitle"</p>' +
+              		'<p>"post-description"</p>' +
+              		'<img src="post-titleImage" height="150" align="centre">' +
+              		'<a href={{post.url}}></a>' +
+              		'</div>' +
+              		'</div>';
+          		var infowindow = new google.maps.InfoWindow({
+            			content: contentString
+          		});
+          		var marker = new google.maps.Marker({
+            			position: "post-gps",
+            			map: map,
+            			title: "post-title"
+          		});
+          		marker.addListener('click', function() {
+            			infowindow.open(map, marker);
+          		});
+        	{% endfor %}
+		
 	}
     
 </script>
