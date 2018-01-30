@@ -7,19 +7,24 @@ pagination:
 ---
 
 <h1>Track the adventures of Zoe and Louise as they travel across the globe!</h1>
+
 <div id="map"></div>
+
 <script>
 	// This example displays a marker at the center of Australia.
 	// When the user clicks the marker, an info window opens.
+	
 	function initMap() {
+		
 		// Sets positioning of map when window is opened
         	var middle = {lat: 30.081688, lng: 31.173256};
         	var map = new google.maps.Map(document.getElementById('map'), {
-        	zoom: 3,
-        	center: middle
-        });
-	
-	{% for post in paginator.posts %}
+        		zoom: 3,
+        		center: middle
+        	});
+		
+		// Gets posts and creates pop out windows and markers for each
+		{% for post in paginator.posts %}
             		var contentString = '<div id="content">' +
               		'<div id="siteNotice">' +
               		'</div>' +
@@ -43,11 +48,11 @@ pagination:
           		marker.addListener('click', function() {
             			infowindow.open(map, marker);
           		});
-        	{% endfor %}
-		
+        	{% endfor %}	
+	
 	}
-    
 </script>
+
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvhhyDvSse626-pMa6BoOuOQZNff0xnik&callback=initMap">
 </script>
