@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Whittlesey
-date: 24/08/2017
+date: 2017-08-24
 location: Whittlesey
 gps: {lat: 52.558002, lng: -0.130331}
 subtitle: The Cushings have left Harlow
