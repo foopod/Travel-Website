@@ -1,7 +1,7 @@
 ---
 layout: post
 title: St Petersburg
-date: 28/08/2017-30/08/2017
+date: 2017-08-28
 location: St Petersburg
 gps: {lat: 59.904755, lng: 30.285203}
 subtitle: Добро пожаловать в Россию (Welcome to Russia)
