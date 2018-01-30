@@ -30,9 +30,7 @@ description: Track our adventures across the Globe
         });
         
         
-	<div class="posts">
         	{% for post in paginator.posts %}
-          	<div class="post">
             		var contentString = '<div id="content">' +
               		'<div id="siteNotice">' +
               		'</div>' +
@@ -56,9 +54,7 @@ description: Track our adventures across the Globe
           		marker.addListener('click', function() {
             			infowindow.open(map, marker);
           		});
-        		</div>
         	{% endfor %}
-		</div>
 	}
     
 </script>
