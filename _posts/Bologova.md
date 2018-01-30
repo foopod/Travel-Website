@@ -1,7 +1,7 @@
 ---
 layout: post
 title: St Petersburg to Moscow
-date: Overnight train 30/08/2017
+date: 2017-08-30
 location: St Petersburg to Moscow
 gps: {lat: 57.982057, lng: 34.048883}
 subtitle: Наш первый поезд (Our First Train)
