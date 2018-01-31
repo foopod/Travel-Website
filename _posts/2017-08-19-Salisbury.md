@@ -24,7 +24,5 @@ The next morning we headed down into Salisbury township for brunch and a walk ar
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4SnVqMUk4eVduT1E" class="image1">
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4dU45STY4emxlS2c" class="image1">
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4RVpsLWczNzFXN2c" class="image1">
-<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4NnhVbDBER2lBTnc" class="image1">
-<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4ZDdEcGxnaHBybFE" class="image1">
 
 <a href="https://adventuresofthetravellingtwins.com/">Return to Home Page</a>
