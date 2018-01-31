@@ -1,6 +1,7 @@
 ---
 layout: post
 title: St Petersburg
+number: 8
 date: 2017-08-28
 location: St Petersburg
 lat: 59.904755
