@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Whittlesey
+number: 6
 date: 2017-08-24
 location: Whittlesey
 lat: 52.558002
