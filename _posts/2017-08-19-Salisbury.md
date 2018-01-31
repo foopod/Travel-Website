@@ -21,7 +21,7 @@ We arrived at Louise's and walked down to the service station to buy some dinner
 
 The next morning we headed down into Salisbury township for brunch and a walk around the Cathedral. Finally got to see the Magna Carta, which you expect to be bigger than it is but still pretty cool to see. 
 
-<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4RVdIeFpVY01YSjg" class="image1">
+<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4SnVqMUk4eVduT1E" class="image1">
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4dU45STY4emxlS2c" class="image1">
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4RVpsLWczNzFXN2c" class="image1">
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4NnhVbDBER2lBTnc" class="image1">
