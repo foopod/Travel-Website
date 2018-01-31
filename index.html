@@ -34,8 +34,8 @@ pagination:
               		'<p>{{post.date}}</p>' +
               		'<p>{{post.subtitle}}</p>' +
               		'<p>{{post.description}}</p>' +
-              		'<img src={{post.titleImage}} height="150" align="centre">' +
-              		'<a href={{post.url}}></a>' +
+              		'<img src="{{post.titleImage}}" height="150" align="centre">' +
+              		'<a href="{{post.url}}"></a>' +
               		'</div>' +
               		'</div>';
           		var infowindow = new google.maps.InfoWindow({
@@ -44,7 +44,7 @@ pagination:
           		var marker = new google.maps.Marker({
             			position: {lat: {{post.lat}}, lng: {{post.lng}}},
             			map: map,
-            			title: {{post.title}}
+            			title: "{{post.title}}"
           		});
           		marker.addListener('click', function() {
             			infowindow.open(map, marker);
