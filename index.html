@@ -42,7 +42,7 @@ pagination:
             			content: contentString
           		});
           		var marker = new google.maps.Marker({
-            			position: {{post.gps}},
+            			position: {lat: {{post.lat}}, lng: {{post.lng}}},
             			map: map,
             			title: {{post.title}}
           		});
