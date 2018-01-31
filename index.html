@@ -26,28 +26,28 @@ pagination:
 		// Gets posts and creates pop out windows and markers for each
 		{% for post in paginator.posts %}
 			// Test are we getting here?
-            		var contentString = '<div id="content">' +
+            		var contentString{{post.lat}} = '<div id="content">' +
               		'<div id="siteNotice">' +
               		'</div>' +
               		'<h1 id="firstHeading" class="firstHeading" align="center">{{post.location}}</h1>' + 
               		'<div id="bodyContent" align="center">' +
-              		'<p>{{post.date}}</p>' +
+              		'<p>{{ post.date | date_to_string }}</p>' +
               		'<p>{{post.subtitle}}</p>' +
               		'<p>{{post.description}}</p>' +
               		'<img src="{{post.titleImage}}" height="150" align="centre">' +
               		'<a href="{{post.url}}"></a>' +
               		'</div>' +
               		'</div>';
-          		var infowindow = new google.maps.InfoWindow({
-            			content: contentString
+          		var infowindow{{post.lat}} = new google.maps.InfoWindow({
+            			content: contentString{{post.lat}}
           		});
-          		var marker = new google.maps.Marker({
+          		var marker{{post.lat}} = new google.maps.Marker({
             			position: {lat: {{post.lat}}, lng: {{post.lng}}},
             			map: map,
             			title: "{{post.title}}"
           		});
-          		marker.addListener('click', function() {
-            			infowindow.open(map, marker);
+          		marker{{post.lat}}.addListener('click', function() {
+            			infowindow{{post.lat}}.open(map, marker{{post.lat}});
           		});
         	{% endfor %}	
 	
