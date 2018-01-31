@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Salisbury
+number: 2
 date: 2017-08-19
 location: Salisbury
 lat: 51.069244
