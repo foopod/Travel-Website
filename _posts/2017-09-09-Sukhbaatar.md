@@ -2,7 +2,7 @@
 layout: post
 title: Sukhbaatar
 number: 17
-date: 2017-09-10
+date: 2017-09-09
 location: Sukhbaatar
 lat: 50.230389
 lng: 106.206278
