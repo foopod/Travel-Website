@@ -23,9 +23,7 @@ pagination:
         		center: middle
         	});
 		
-		// Gets posts and creates pop out windows and markers for each
 		{% for post in paginator.posts %}
-			// Test are we getting here?
             		var contentString{{post.number}} = '<div id="content">' +
               		'<div id="siteNotice">' +
               		'</div>' +
