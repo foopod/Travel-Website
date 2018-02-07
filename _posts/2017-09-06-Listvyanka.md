@@ -9,4 +9,5 @@ lng: 104.872601
 subtitle: Красивое озеро Байкал (Beautiful Lake Baikal)
 description: Banya, Fat Seals, and Swimming in the freezing cold Lake Baikal!
 titleImage: https://drive.google.com/uc?id=0B9XzfNSrmvT4MGxSXzdiZlItc1k
+marker: https://d30y9cdsu7xlg0.cloudfront.net/png/81514-200.png
 ---
