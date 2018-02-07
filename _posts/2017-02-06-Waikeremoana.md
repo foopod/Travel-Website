@@ -9,5 +9,5 @@ lng: 177.110355
 subtitle: OODs Reunion, New Zealand Edition
 description: Great Walks with Pete!
 titleImage: https://drive.google.com/uc?id=1gkY06Re3KeKFVlLcpkasgLHE0vcC-2k3
-marker: https://cdn1.iconfinder.com/data/icons/clothes-accesories-2/96/Boot-512.png
+marker: https://adventuresofthetravellingtwins.com/media/Boot.png
 ---
