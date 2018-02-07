@@ -9,5 +9,5 @@ lng: 39.41
 subtitle: Первый день на Транссиб (First day on the Trans Siberian)
 description: Goodbye Moscow, Hello to our new home for the next four days!
 titleImage: https://drive.google.com/uc?id=0B9XzfNSrmvT4SHlLOUJvamJYZmc
-marker: https://d30y9cdsu7xlg0.cloudfront.net/png/81514-200.png
+marker: https://adventuresofthetravellingtwins.com/media/train.png
 ---
