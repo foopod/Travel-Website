@@ -41,7 +41,6 @@ pagination:
           		var marker{{post.number}} = new google.maps.Marker({
             			position: {lat: {{post.lat}}, lng: {{post.lng}}},
             			map: map,
-				icon: '{{post.marker}}',
             			title: "{{post.title}}"
           		});
           		marker{{post.number}}.addListener('click', function() {
