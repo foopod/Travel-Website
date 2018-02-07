@@ -9,7 +9,7 @@ lng: 30.285203
 subtitle: Добро пожаловать в Россию (Welcome to Russia)
 description: Catherdrals, Forts, Art and the Start of the Vodka Train!
 titleImage: https://drive.google.com/uc?id=0B9XzfNSrmvT4SWFtOHFjY3I5ODg
-marker: https://d30y9cdsu7xlg0.cloudfront.net/png/81514-200.png
+marker: https://adventuresofthetravellingtwins.com/media/train.png
 ---
 
 <h4>Day One: 28/08/2017</h4>
