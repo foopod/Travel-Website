@@ -40,9 +40,9 @@ For dinner we went to <a target="_blank" href="https://ginza.ru/spb/restaurant/k
 
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4d1FGc1NpUkxUa2s" class="image1">
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4dm9FNndaVDRueTg" class="image1">
-<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4ZmdLRzQzQUxsak0" class="image1">
-<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4dU50d1RMdWh5OEE" class="image1">
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4TnZrZHFDNXByYVE" class="image1">
+<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4dU50d1RMdWh5OEE" class="image1">
+<img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4NC1SNmdUclZmVkU" class="image1">
 <img src="https://drive.google.com/uc?id=0B9XzfNSrmvT4Nk80TV9HdFBmT2c" class="image1">
 
 <h4>Day Three: 30/08/2017</h4>
