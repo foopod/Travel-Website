@@ -35,17 +35,17 @@ pagination:
               		'<img src="{{post.titleImage}}" class="image2" height="150" align="centre">' +
               		'</div>' +
               		'</div>';
-          		var infowindow{{post.number}} = new google.maps.InfoWindow({
-            			content: contentString{{post.number}}
-          		});
-          		var marker{{post.number}} = new google.maps.Marker({
-            			position: {lat: {{post.lat}}, lng: {{post.lng}}},
-            			map: map,
-            			title: "{{post.title}}"
-          		});
-		 	marker{{post.number}}.addListener(marker, 'click', (function(marker{{post.number}}, infowindow{{post.number}}) {
+          		marker{{post.number}}.addListener(marker, 'click', (function(marker{{post.number}}, infowindow{{post.number}}) {
         			return function() {
             				closeLastOpenedInfoWindow();
+					var infowindow{{post.number}} = new google.maps.InfoWindow({
+            					content: contentString{{post.number}}
+          				});
+          				var marker{{post.number}} = new google.maps.Marker({
+            					position: {lat: {{post.lat}}, lng: {{post.lng}}},
+            					map: map,
+            					title: "{{post.title}}"
+          				});
             				infowindow{{post.number}}.open(map, marker{{post.number}});
             				lastOpenedInfoWindow = infowindow{{post.number}};
         			};
