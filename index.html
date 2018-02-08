@@ -48,9 +48,8 @@ pagination:
             				closeLastOpenedInfoWindow();
             				infowindow{{post.number}}.open(map, marker{{post.number}});
             				lastOpenedInfoWindow = infowindow{{post.number}};
-        				};
-    				})(marker{{post.number}}, makrerdata[i], infowindow{{post.number}}));
-			}
+        			};
+    			})(marker{{post.number}}, makrerdata[i], infowindow{{post.number}}));
 			function closeLastOpenedInfoWindow() {
     				if (lastOpenedInfoWindow) {
         				lastOpenedInfoWindow.close();
