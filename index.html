@@ -35,25 +35,24 @@ pagination:
               		'<img src="{{post.titleImage}}" class="image2" height="150" align="centre">' +
               		'</div>' +
               		'</div>';
-		 	var infowindow{{post.number}} = new google.maps.InfoWindow({
-            			content: contentString{{post.number}}
-          		});
-          		var marker{{post.number}} = new google.maps.Marker({
-            			position: {lat: {{post.lat}}, lng: {{post.lng}}},
-            			map: map,
-            			title: "{{post.title}}"
-          		});
-          		marker{{post.number}}.addListener(marker, 'click', (function(marker{{post.number}}, infowindow{{post.number}}) {
-        			return function() {
-            				closeLastOpenedInfoWindow();
-            				infowindow{{post.number}}.open(map, marker{{post.number}});
-            				lastOpenedInfoWindow = infowindow{{post.number}};
-        			};
-    			})(marker{{post.number}}, makrerdata[i], infowindow{{post.number}}));
-			function closeLastOpenedInfoWindow() {
-    				if (lastOpenedInfoWindow) {
-        				lastOpenedInfoWindow.close();
-    				}
+	
+          	 	var currWindow =false; 
+			base.attachInfo = function(marker, i){
+    				var infowindow{{post.number}} = new google.maps.InfoWindow({
+            				content: contentString{{post.number}}
+          			});
+				var marker{{post.number}} = new google.maps.Marker({
+            				position: {lat: {{post.lat}}, lng: {{post.lng}}},
+            				map: map,
+            				title: "{{post.title}}"
+          			});
+    				google.maps.event.addListener(marker{{post.number}}, 'click', function(){
+        				if( currWindow ) {
+           					currWindow.close();
+        				}
+        				currWindow = infowindow{{post.number}};
+        				infowindow{{post.number}}.open(base.map, marker{{post.number}});
+    				});
 			}
         	{% endfor %}	
 	
