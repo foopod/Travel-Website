@@ -43,13 +43,13 @@ pagination:
             			map: map,
             			title: "{{post.title}}"
           		});
-		 	marker{{post.number}}.addListener(marker, 'click', (function(marker, infowindow) {
+		 	marker{{post.number}}.addListener(marker, 'click', (function(marker{{post.number}}, infowindow{{post.number}}) {
         			return function() {
             				closeLastOpenedInfoWindow();
             				infowindow{{post.number}}.open(map, marker{{post.number}});
-            				lastOpenedInfoWindow = infowindow;
+            				lastOpenedInfoWindow = infowindow{{post.number}};
         				};
-    				})(marker{{post.number}}, makrerdata[i], infowindow));
+    				})(marker{{post.number}}, makrerdata[i], infowindow{{post.number}}));
 			}
 			function closeLastOpenedInfoWindow() {
     				if (lastOpenedInfoWindow) {
