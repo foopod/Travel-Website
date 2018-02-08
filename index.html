@@ -43,9 +43,19 @@ pagination:
             			map: map,
             			title: "{{post.title}}"
           		});
-          		marker{{post.number}}.addListener('click', function() {
-            			infowindow{{post.number}}.open(map, marker{{post.number}});
-          		});
+		 	marker{{post.number}}.addListener(marker, 'click', (function(marker, infowindow) {
+        			return function() {
+            				closeLastOpenedInfoWindow();
+            				infowindow{{post.number}}.open(map, marker{{post.number}});
+            				lastOpenedInfoWindow = infowindow;
+        				};
+    				})(marker, makrerdata[i], infowindow));
+			}
+			function closeLastOpenedInfoWindow() {
+    				if (lastOpenedInfoWindow) {
+        				lastOpenedInfoWindow.close();
+    				}
+			}
         	{% endfor %}	
 	
 	}
