@@ -23,6 +23,8 @@ pagination:
         		center: middle
         	});
 		
+		var oldInfoWindow = null;
+		
 		{% for post in paginator.posts %}
             		var contentString{{post.number}} = '<div id="content">' +
               		'<div id="siteNotice">' +
@@ -45,6 +47,10 @@ pagination:
           		});
           		marker{{post.number}}.addListener('click', function() {
             			infowindow{{post.number}}.open(map, marker{{post.number}});
+				if ( oldInfoWindow != null ){
+					oldInfoWindow.close();
+				}
+				oldInfoWindow = infowindow{{post.number}};
           		});
         	{% endfor %}	
 	
