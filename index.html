@@ -39,7 +39,7 @@ pagination:
             			content: contentString{{post.number}}
           		});
           		var marker{{post.number}} = new google.maps.Marker({
-            			position: {{{post.lat}}, {{post.lng}}},
+            			position: {lat: {{post.lat}}, lng: {{post.lng}}},
             			map: map,
             			title: "{{post.title}}"
           		});
