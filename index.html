@@ -39,7 +39,7 @@ pagination:
             			content: contentString{{post.number}}
           		});
           		var marker{{post.number}} = new google.maps.Marker({
-            			position: {lat: -36.838928, lng: 175.807425},
+            			position: {{{post.lat}}, {{post.lng}}},
             			map: map,
             			title: "Hahei"
           		});
