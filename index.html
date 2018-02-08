@@ -49,7 +49,7 @@ pagination:
             				infowindow{{post.number}}.open(map, marker{{post.number}});
             				lastOpenedInfoWindow = infowindow;
         				};
-    				})(marker, makrerdata[i], infowindow));
+    				})(marker{{post.number}}, makrerdata[i], infowindow));
 			}
 			function closeLastOpenedInfoWindow() {
     				if (lastOpenedInfoWindow) {
