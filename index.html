@@ -35,25 +35,17 @@ pagination:
               		'<img src="{{post.titleImage}}" class="image2" height="150" align="centre">' +
               		'</div>' +
               		'</div>';
-	
-          	 	var currWindow =false; 
-			base.attachInfo = function(marker, i){
-    				var infowindow{{post.number}} = new google.maps.InfoWindow({
-            				content: contentString{{post.number}}
-          			});
-				var marker{{post.number}} = new google.maps.Marker({
-            				position: {lat: {{post.lat}}, lng: {{post.lng}}},
-            				map: map,
-            				title: "{{post.title}}"
-          			});
-    				google.maps.event.addListener(marker{{post.number}}, 'click', function(){
-        				if( currWindow ) {
-           					currWindow.close();
-        				}
-        				currWindow = infowindow{{post.number}};
-        				infowindow{{post.number}}.open(base.map, marker{{post.number}});
-    				});
-			}
+          	 	var infowindow{{post.number}} = new google.maps.InfoWindow({
+            			content: contentString{{post.number}}
+          		});
+          		var marker{{post.number}} = new google.maps.Marker({
+            			position: {lat: -36.838928, lng: 175.807425},
+            			map: map,
+            			title: "Hahei"
+          		});
+          		marker{{post.number}}.addListener('click', function() {
+            			infowindow{{post.number}}.open(map, marker{{post.number}});
+          		});
         	{% endfor %}	
 	
 	}
