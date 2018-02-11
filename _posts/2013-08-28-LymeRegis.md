@@ -7,7 +7,7 @@ location: Lyme Regis
 lat: 50.723229
 lng: -2.936651
 subtitle: Blast from the past!
-description: We revisit some of Mum and Aunty Cathy's childhood memories
+description: We revisit some childhood memories
 titleImage: https://drive.google.com/uc?id=1udjc-UsfgBJwoUrcDoJv6t5kSo8P52ap
 ---
 
