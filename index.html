@@ -47,7 +47,7 @@ pagination:
           		});
           		marker{{post.number}}.addListener('click', function() {
             			infowindow{{post.number}}.open(map, marker{{post.number}});
-				if ( oldInfoWindow != null || oldInfoWindow == post.number ){
+				if ( oldInfoWindow != null ){
 					oldInfoWindow.close();
 				}
 				oldInfoWindow = infowindow{{post.number}};
