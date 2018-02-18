@@ -19,10 +19,10 @@ A walk around the beach even yeilded another Kiwi Lifeguard (we just keep findin
 Stunner of a day!
 
 <img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/DSC03232.JPG" class="image1">
-<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/DSC03238.JPG class="image1">
-<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/P1010060.JPG class="image1">
-<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/P1010062.JPG class="image1">
-<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/DSC03237.JPG class="image1">
-<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/DSC03235.JPG class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/DSC03238.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/P1010060.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/P1010062.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/DSC03237.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-01-Perranporth/DSC03235.JPG" class="image1">
 
 <a href="https://adventuresofthetravellingtwins.com/">Return to Home Page</a>
