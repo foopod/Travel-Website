@@ -2,7 +2,7 @@
 layout: post
 title: Perranporth
 number: 94
-date: 2013-08-17
+date: 2013-09-01
 location: Perranporth
 lat: 50.344435
 lng: -5.154924
