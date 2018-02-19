@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Freshers Walk
-number: 89
+number: 88
 date: 2013-09-21
 location: Freshers Walk
 lat: 50.595589
