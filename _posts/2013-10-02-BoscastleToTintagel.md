@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Boscastle to Tintagel
-number: 88
+number: 87
 date: 2013-10-02
 location: Boscastle to Tintagel
 lat: 50.668382
