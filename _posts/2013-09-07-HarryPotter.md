@@ -13,7 +13,7 @@ titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-09-07-HarryPo
 
 <h4>This is better than Disneyland!</h4>
 
-If Disneyland is the happiest place on earth then Harry Potter Studios Tour is the most magical!
+If Disneyland is the happiest place on earth then <a target="_blank" href="https://www.wbstudiotour.co.uk/home">Harry Potter Studios Tour</a> is the most magical!
 Louise and I had the most amazing day seeing all the set, learning duelling poses, riding on Hagrid's Motorbike, and walking around Hogwarts.
 
 <img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-07-HarryPotter/IMG_4292.JPG" class="image1">
