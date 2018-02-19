@@ -13,7 +13,7 @@ titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-08-27-Studlan
 
 <h4>We are not in NZ any more</h4>
 
-Today we were at Studlands Beach for the August Bank Holiday, and apparently so was the rest of England!
+Today we were at <a target="_blank" href="https://www.nationaltrust.org.uk/studland-bay">Studland Bay</a> for the August Bank Holiday, and apparently so was the rest of England!
 I couldn't believe how many people were at the beach, in NZ when its that busy we just go to the next beach, apparently not an option here. 
 Our cousin also decided to completely freak us out with stories of fish that live in the sand that stab you and inject you with a painful toxin, suffice to say that Louise and I spent a lot of the day floating.
 
