@@ -2,7 +2,7 @@
 layout: post
 title: Boscastle to Tintagel
 number: 87
-date: 2013-10-02
+date: 2013-09-28
 location: Boscastle to Tintagel
 lat: 50.668382
 lng: -4.758612
