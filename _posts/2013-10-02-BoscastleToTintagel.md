@@ -6,8 +6,8 @@ date: 2013-09-28
 location: Boscastle to Tintagel
 lat: 50.668382
 lng: -4.758612
-subtitle: Boscastle to Tintagel
-description: A walk along the Cornish Coast and Arthurian Legend
+subtitle: The Cornish Coast
+description: A seaside walk and Arthurian Legend
 titleImage: https://adventuresofthetravellingtwins.com/2013-10-02-BoscastleToTintagel/P1010501.JPG
 ---
 
