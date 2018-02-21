@@ -14,7 +14,7 @@ titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-10-19-OutOfBo
 <h4>9 mile cycle along the River Exe</h4>
 
 Today was the yearly Out of Boots Saturday so instead of walking we were cycling.
-We cycled from the Exeter Quay to Topsham and back again via the Double Locks Pub along the River Exe. 
+We cycled from the Exeter Quay to <a target="_blank" href="https://www.visitsouthdevon.co.uk/explore-south-devon/topsham-p403063">Topsham</a> and back again via the <a target="_blank" href="http://www.doublelocks.com/">Double Locks Pub</a> along the River Exe. 
 The Double Locks Pub is an institution, Mum used to go there when she was at Exeter Uni back in the day. 
 We had beautiful weather for it and even got to see a deer on the ride back. Topsham was very pretty, would be nice to have a bit more of an explore around here one day.
 
