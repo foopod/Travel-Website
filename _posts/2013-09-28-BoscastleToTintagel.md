@@ -8,7 +8,7 @@ lat: 50.668382
 lng: -4.758612
 subtitle: The Cornish Coast
 description: A seaside walk and Arthurian Legend
-titleImage: https://adventuresofthetravellingtwins.com/2013-10-02-BoscastleToTintagel/P1010501.JPG
+titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-10-02-BoscastleToTintagel/P1010501.JPG
 ---
 
 <h4>5 miles from Boscastle to Tintagel</h4>
@@ -20,12 +20,12 @@ We made some new friends and hopefully we have many more walks with them to look
 The day ended at <a target="_blank" href="http://www.english-heritage.org.uk/visit/places/tintagel-castle/">Tintagel</a> which is supposedly the Castle of Arthur and his Knights of the Round Table, and in the cliffs below the castle is Merlin's cave.
 Bizarre to be in this place of both history and legend, I am starting to understand why so many History Majors are a part of OODs. 
 
-<img src="https://adventuresofthetravellingtwins.com/2013-10-02-BoscastleToTintagel/P1010485.JPG" class="image1">
-<img src="https://adventuresofthetravellingtwins.com/2013-10-02-BoscastleToTintagel/P1010477.JPG" class="image1">
-<img src="https://adventuresofthetravellingtwins.com/2013-10-02-BoscastleToTintagel/P1010450.JPG" class="image1">
-<img src="https://adventuresofthetravellingtwins.com/2013-10-02-BoscastleToTintagel/P1010464.JPG" class="image1">
-<img src="https://adventuresofthetravellingtwins.com/2013-10-02-BoscastleToTintagel/P1010510.JPG" class="image1">
-<img src="https://adventuresofthetravellingtwins.com/2013-10-02-BoscastleToTintagel/P1010504.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-10-02-BoscastleToTintagel/P1010485.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-10-02-BoscastleToTintagel/P1010477.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-10-02-BoscastleToTintagel/P1010450.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-10-02-BoscastleToTintagel/P1010464.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-10-02-BoscastleToTintagel/P1010510.JPG" class="image1">
+<img src="https://adventuresofthetravellingtwins.com/Photos/2013-10-02-BoscastleToTintagel/P1010504.JPG" class="image1">
 
 
 <a href="https://adventuresofthetravellingtwins.com/">Return to Home Page</a>
