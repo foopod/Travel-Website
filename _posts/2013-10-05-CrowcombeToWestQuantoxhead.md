@@ -13,7 +13,7 @@ titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-10-05-Crowcom
 
 <h4>7 miles from Crowcombe to West Quantoxhead</h4>
 
-Today we completed a beautiful walk near the Somerset Coast through farm land from Crowcombe to West Quantoxhead. 
+Today we completed a beautiful walk near the Somerset Coast through farm land from Crowcombe to <a target="_blank" href="https://www.quantockonline.co.uk/quantocks/villages/westquantoxhead/westquantox1.html">West Quantoxhead</a>. 
 In the morning President Pete had warned us that there were two big hills to climb so to pace ourselves, only for Louise and I to discover that the English idea of a big hill is vastly different to the New Zealand one. 
 An absolute stunner of a day, we had beautiful blue skies the whole walk. Got to see some cows, walk through some trees and live up to the OODs motto "On a good day we can see Wales" when we got to West Quantoxhead. 
 
