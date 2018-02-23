@@ -6,7 +6,7 @@ date: 2013-11-02
 location: Birthday Weekend
 lat: 50.577881
 lng: -2.473510
-subtitle: We're 20!
+subtitle: We are 20!
 description: Our first birthday away from home
 titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-11-02-BirthdayWeekend/P1020055.JPG
 ---
