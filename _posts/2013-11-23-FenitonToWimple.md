@@ -4,8 +4,8 @@ title: Feniton to Wimple
 number: 78
 date: 2013-11-23
 location: Feniton to Wimple
-lat: 50.47051
-lng: -3.16218
+lat: 50.786753
+lng: -3.284004
 subtitle: Our best, and longest, walk yet
 description: Beautiful Saturday walk with Friends
 titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-11-23-FenitonToWimple/1466067_497080833722414_1755431466_n.jpg
