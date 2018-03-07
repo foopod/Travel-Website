@@ -4,8 +4,8 @@ title: Castle Drogo
 number: 76
 date: 2013-12-07
 location: Castle Drogo
-lat: 50.41457
-lng: -3.48408
+lat: 50.69603
+lng: -3.811389
 subtitle: OODs Christmas Walk
 description: limbing scaffolding, exploring a castle and a pre Christmas Walk. 
 titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-12-07-CastleDrogo/4.jpg
