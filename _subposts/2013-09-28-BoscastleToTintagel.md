@@ -1,3 +1,9 @@
+---
+layout: post
+title: Boscastle to Tintagel
+date: 2013-09-28
+---
+
 <h1>28/09/2013 - A seaside walk and Arthurian Legend</h1>
 <h4>5 miles from Boscastle to Tintagel</h4>
 
