@@ -1,3 +1,9 @@
+---
+layout: post
+title: Castle Drogo
+date: 2013-12-07
+---
+
 <h1>07/12/2013 - A Christmas Walk</h1>
 <h4>A 4 mile walk around the grounds and a tour of Castle Drogo</h4>
 
