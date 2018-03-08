@@ -1,3 +1,9 @@
+---
+layout: post
+title: Sticklepath to Okehampton
+date: 2013-11-16
+---
+
 <h1>16/11/2013 - A wet walk through the Dartmoor</h1>
 <h4>7.5 Miles from Sticklepath to Okehampton</h4>
 
