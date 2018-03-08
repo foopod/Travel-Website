@@ -1,3 +1,9 @@
+---
+layout: post
+title: Crowcombe to West Quantoxhead
+date: 2013-10-05
+---
+
 <h1>05/10/2013 - On a good day we can see Wales</h1>
 <h4>7 miles from Crowcombe to West Quantoxhead</h4>
 
