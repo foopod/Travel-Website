@@ -1,3 +1,9 @@
+---
+layout: post
+title: Rames Head to Cremyll
+date: 2013-10-26
+---
+
 <h1>26/10/2013 - The Cornish Coast</h1>
 <h4> 8 miles from Rames Head to Cremyll </h4>
 
