@@ -1,3 +1,9 @@
+---
+layout: post
+title: Feniton to Wimple
+date: 2013-11-23
+---
+
 <h1>23/11/2013 - Our best, and longest, walk yet</h1>
 <h4>10 Miles from Feniton to Wimple</h4>
 
