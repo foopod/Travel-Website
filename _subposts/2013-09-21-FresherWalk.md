@@ -11,7 +11,6 @@ description: The end of Freshers week and our first OODs Walk
 titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-09-21-Freshers/P1010414.JPG
 ---
 
-<h1>21/09/2013 - Freshers Walk</h1>
 <h4>6 miles from Postbridge to Warren House Pub</h4>
 
 After surviving our first week in Exeter and Freshers week (with the flu and two exploded ear drums) we are heading out into the fresh air and to explore some of the beautiful country side around our new home. 
