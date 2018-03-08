@@ -11,7 +11,7 @@ description: Posts from all our OODs walks while studying in Exeter
 titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-12-07-CastleDrogo/4.jpg
 ---
 
-<h1>21/09/2013 - <a href="https://adventuresofthetravellingtwins.com/_posts/_subposts/2013-09-21-FresherWalk.md">Freshers Walk</a></h1>
+<h1>21/09/2013 - <a href="https://adventuresofthetravellingtwins.com/subposts/2013-09-21-FresherWalk">Freshers Walk</a></h1>
 <img src="https://adventuresofthetravellingtwins.com/Photos/2013-09-21-Freshers/P1010414.JPG" class="image3">
 
 <h1>28/09/2013 - <a href="https://adventuresofthetravellingtwins.com/_posts/_subposts/2013-09-28-BoscastleToTintagel.md">Boscastle to Tintagel</a></h1>
