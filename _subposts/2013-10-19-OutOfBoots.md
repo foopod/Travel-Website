@@ -1,3 +1,9 @@
+---
+layout: post
+title: Out of Boots
+date: 2013-10-19
+---
+
 <h1>19/10/2013 - Out Of Boots</h1>
 <h4>9 mile cycle along the River Exe</h4>
 
