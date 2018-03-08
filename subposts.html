@@ -1,0 +1,15 @@
+---
+layout: default
+title: Subposts
+description: An collection of posts all relating to one master post
+pagination: 
+  enabled: true
+  per_page: 1000
+---
+
+<div class="post">
+  <h2 class="post-title">{{ page.title }}</h2>
+  <h3 class="post-subtitle">{{ page.subtitle }}</h3>
+  <h3 class="post-description">{{ page.description }}</h3>
+  {{ content }}
+</div>
