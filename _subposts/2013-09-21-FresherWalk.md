@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: subpost
 title: Freshers Walk
 subtitle: Postbridge to Warren House Inn
 description: The end of Freshers week and our first OODs Walk
