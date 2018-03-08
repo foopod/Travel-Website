@@ -1,10 +1,16 @@
 ---
 layout: post
 title: Tar Barrels
+number: 81
 date: 2013-11-05
+location: Tar Barrels
+lat: 50.750956
+lng: -3.279867
+subtitle: Remember remember the 5th of November
+description: Guy Fawkes!
+titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-11-05-TarBarrels/IMG_0141.JPG
 ---
 
-<h1>05/11/2013 - Guy Fawkes</h1>
 <h4>Bonfires, Mulled Cider, and burning Barrels of Tar</h4>
 
 It is our first Bonfire Night (or Guy Fawkes) in the UK and we are off (along with every other student in Exeter) to Ottery St Mary for the 
