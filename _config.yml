@@ -11,6 +11,10 @@ tagline:          'Our Travels across the Globe'
 description:      'Track our travels and read all about it here'
 url:              https://adventuresofthetravellingtwins.com
 baseurl:          ''
+
+collection:
+  subposts:
+    output: true
   
 gems: ['jekyll-paginate-v2', 'jekyll-seo-tag', 'jekyll-sitemap']
 
