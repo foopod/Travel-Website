@@ -1,3 +1,9 @@
+---
+layout: post
+title: Tar Barrels
+date: 2013-11-05
+---
+
 <h1>05/11/2013 - Guy Fawkes</h1>
 <h4>Bonfires, Mulled Cider, and burning Barrels of Tar</h4>
 
