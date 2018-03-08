@@ -1,10 +1,16 @@
 ---
 layout: post
 title: Boscastle to Tintagel
+number: 87
 date: 2013-09-28
+location: Boscastle to Tintagel
+lat: 50.668382
+lng: -4.758612
+subtitle: The Cornish Coast
+description: A seaside walk and Arthurian Legend
+titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-10-02-BoscastleToTintagel/P1010501.JPG
 ---
 
-<h1>28/09/2013 - A seaside walk and Arthurian Legend</h1>
 <h4>5 miles from Boscastle to Tintagel</h4>
 
 Today's walk was a lot more effort that the flat rolling plain that is Dartmoor but the views were well worth it. I can see why this is one of the most popular walks of the year. 
