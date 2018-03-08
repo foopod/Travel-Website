@@ -24,6 +24,7 @@ pagination:
         	});
 		
 		var oldInfoWindow = null;
+		var markers = [];
 		
 		{% for post in paginator.posts %}
             		var contentString{{post.number}} = '<div id="content">' +
@@ -45,6 +46,7 @@ pagination:
             			map: map,
             			title: "{{post.title}}"
           		});
+		 	markers.push(marker{{post.number}});
           		marker{{post.number}}.addListener('click', function() {
             			infowindow{{post.number}}.open(map, marker{{post.number}});
 				if ( oldInfoWindow != null ){
@@ -52,11 +54,15 @@ pagination:
 				}
 				oldInfoWindow = infowindow{{post.number}};
           		});
-        	{% endfor %}	
+        	{% endfor %}
+		var markerCluster = new MarkerClusterer(map, markers,
+            		{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m3.png'});
+      		}
 	
 	}
 </script>
-
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+</script>
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvhhyDvSse626-pMa6BoOuOQZNff0xnik&callback=initMap">
 </script>
