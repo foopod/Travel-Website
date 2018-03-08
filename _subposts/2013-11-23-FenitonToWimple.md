@@ -1,10 +1,16 @@
 ---
 layout: post
 title: Feniton to Wimple
+number: 78
 date: 2013-11-23
+location: Feniton to Wimple
+lat: 50.786753
+lng: -3.284004
+subtitle: Our best, and longest, walk yet
+description: Beautiful Saturday walk with Friends
+titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-11-23-FenitonToWimple/1466067_497080833722414_1755431466_n.jpg
 ---
 
-<h1>23/11/2013 - Our best, and longest, walk yet</h1>
 <h4>10 Miles from Feniton to Wimple</h4>
 
 Today we caught the train from Exeter St David's to Honiton Station and then walked the 10 miles from Feniton to Wimple. 
