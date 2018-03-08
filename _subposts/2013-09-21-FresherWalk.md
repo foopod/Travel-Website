@@ -1,8 +1,14 @@
 ---
 layout: subpost
 title: Freshers Walk
+number: 88
+date: 2013-09-21
+location: Freshers Walk
+lat: 50.595589
+lng: -3.905610
 subtitle: Postbridge to Warren House Inn
 description: The end of Freshers week and our first OODs Walk
+titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-09-21-Freshers/P1010414.JPG
 ---
 
 <h4>6 miles from Postbridge to Warren House Pub</h4>
