@@ -7,9 +7,23 @@ pagination:
   per_page: 1000
 ---
 
-<div class="post">
-  <h2 class="post-title">{{ page.title }}</h2>
-  <h3 class="post-subtitle">{{ page.subtitle }}</h3>
-  <h3 class="post-description">{{ page.description }}</h3>
-  {{ content }}
+<p class="message" style="overflow:hidden">
+  Tutorials that I made primarily for the kids at my codeclub, but should be good for anyone.
+</p>
+
+<br>
+
+<div class="posts">
+  {% for subpost in site.subposts reversed %}
+  <div class="post subpost-summary">
+      <div class="subpost-titleimage"><a href="{{subpost.url}}"><img class="icon" src="{{ subpost.titleimage }}"/></a></div>
+    <div class="subpost-description">
+    <a href="{{subpost.url}}"><h1 class="post-title">
+          {{ subpost.title }}
+        </h1></a>
+        <span class="post-date">{{ subpost.date | date_to_string }}</span>
+    <p class="post-description">{{ subpost.description }}</p>
+    </div>
+  </div>
+  {% endfor %}
 </div>
