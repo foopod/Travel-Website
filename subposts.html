@@ -7,13 +7,13 @@ pagination:
   per_page: 1000
 ---
 
+<p>Test that something actually appears here</p>
+
 <div class="posts">
   {% for subpost in site.subposts reversed %}
-    <div class="subpost">
-      <h2 class="subpost-title">{{ page.title }}</h2>
-      <h3 class="subpost-subtitle">{{ page.subtitle }}</h3>
-      <h3 class="subpost-description">{{ page.description }}</h3>
+      <h2 class="post-title">{{ page.title }}</h2>
+      <h3 class="post-subtitle">{{ page.subtitle }}</h3>
+      <h3 class="post-description">{{ page.description }}</h3>
       {{ content }}
-   </div>
   {% endfor %}
 </div>
