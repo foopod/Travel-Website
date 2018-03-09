@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpost
 title: Castle Drogo
 number: 76
 date: 2013-12-07
