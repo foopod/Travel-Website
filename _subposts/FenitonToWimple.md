@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpost
 title: Feniton to Wimple
 number: 78
 date: 2013-11-23
