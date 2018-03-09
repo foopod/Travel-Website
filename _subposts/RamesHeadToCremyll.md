@@ -1,14 +1,8 @@
 ---
 layout: subpost
 title: Rames Head to Cremyll
-number: 83
-date: 2013-10-26
-location: Rames Head to Cremyll
-lat: 50.359347
-lng: -4.175958
 subtitle: The Cornish Coast Part 2
 description: Wind, Rain, Caves and Banter
-titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-10-26-RamesHeadToCremyll/P1010896.JPG
 ---
 
 <h4> 8 miles from Rames Head to Cremyll </h4>
