@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpost
 title: Boscastle to Tintagel
 number: 87
 date: 2013-09-28
