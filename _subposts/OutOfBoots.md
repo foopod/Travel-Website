@@ -1,14 +1,8 @@
 ---
 layout: subpost
 title: Out of Boots
-number: 84
-date: 2013-10-19
-location: Out of Boots 
-lat: 50.682142
-lng: -3.469659
 subtitle: Exeter Quay to Topsham via Double Locks Pub
 description: Time to hang up the boots and go cycling
-titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-10-19-OutOfBoots/P1010848.JPG
 ---
 
 <h4>9 mile cycle along the River Exe</h4>
