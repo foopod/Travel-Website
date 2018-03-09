@@ -1,14 +1,8 @@
 ---
 layout: subpost
 title: Dorset Fair
-number: 99
-date: 2013-08-24
-location: Dorset Fair
-lat: 50.914156
-lng: -2.396572
 subtitle: The Stock Gaylard Oak Fair!
 description: A damp summer fair, but still fun to be had
-titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-08-24-DorsetFair/DSCF2616.JPG
 ---
 
 <h4>Our first English County Fair!</h4>
