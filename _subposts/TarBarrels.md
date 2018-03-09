@@ -1,14 +1,8 @@
 ---
 layout: subpost
 title: Tar Barrels
-number: 81
-date: 2013-11-05
-location: Tar Barrels
-lat: 50.750956
-lng: -3.279867
 subtitle: Remember remember the 5th of November
 description: Guy Fawkes!
-titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-11-05-TarBarrels/IMG_0141.JPG
 ---
 
 <h4>Bonfires, Mulled Cider, and burning Barrels of Tar</h4>
