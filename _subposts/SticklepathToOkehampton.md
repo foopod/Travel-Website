@@ -1,14 +1,8 @@
 ---
 layout: subpost
 title: Sticklepath to Okehampton
-number: 79
-date: 2013-11-16
-location: Sticklepath to Okehampton
-lat: 50.730778
-lng: -3.926480
 subtitle: A walk through Dartmoor
 description: A very Autumnal walk in Devon
-titleImage: https://adventuresofthetravellingtwins.com/Photos/2013-11-16-SticklepathToOkehampton/P1020379.JPG
 ---
 
 <h4>7.5 Miles from Sticklepath to Okehampton</h4>
