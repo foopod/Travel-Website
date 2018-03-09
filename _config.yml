@@ -12,10 +12,12 @@ description:      'Track our travels and read all about it here'
 url:              https://adventuresofthetravellingtwins.com
 baseurl:          ''
 
-collection:
+collections:
   subposts:
     output: true
-  
+  tutorials:
+    output: true
+    
 gems: ['jekyll-paginate-v2', 'jekyll-seo-tag', 'jekyll-sitemap']
 
 ############################################################
