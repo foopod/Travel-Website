@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpost
 title: Tar Barrels
 number: 81
 date: 2013-11-05
