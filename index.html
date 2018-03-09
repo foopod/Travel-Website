@@ -55,14 +55,7 @@ pagination:
 				oldInfoWindow = infowindow{{post.number}};
           		});
         	{% endfor %}
-		{% for subpost in paginator.subposts %}
-			<div class="subpost">
-    				<h2 class="subpost-title">{{ page.title }}</h2>
-    				<h3 class="subpost-subtitle">{{ page.subtitle }}</h3>
-    				<h3 class="subpost-description">{{ page.description }}</h3>
-    				{{ content }}
-			</div>  
-		{% endfor %}
+
 		var markerCluster = new MarkerClusterer(map, markers,
             		{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 	
