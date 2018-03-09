@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpost
 title: Weymouth
 subtitle: Proper beach day!
 description: Surfing, Sun and Fish and Chips
