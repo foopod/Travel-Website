@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpost
 title: Out of Boots
 number: 84
 date: 2013-10-19
