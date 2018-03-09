@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpost
 title: Rames Head to Cremyll
 number: 83
 date: 2013-10-26
