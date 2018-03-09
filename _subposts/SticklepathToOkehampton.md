@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpost
 title: Sticklepath to Okehampton
 number: 79
 date: 2013-11-16
