@@ -1,0 +1,19 @@
+---
+layout: default
+title: Subposts
+description: An collection of posts all relating to one master post
+pagination: 
+  enabled: true
+  per_page: 1000
+---
+
+<p>Test that something actually appears here</p>
+
+<div class="posts">
+  {% for subpost in site.subposts reversed %}
+      <h2 class="post-title">{{ page.title }}</h2>
+      <h3 class="post-subtitle">{{ page.subtitle }}</h3>
+      <h3 class="post-description">{{ page.description }}</h3>
+      {{ content }}
+  {% endfor %}
+</div>
